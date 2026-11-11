@@ -1,0 +1,83 @@
+[
+  {
+    "model": "PyTorch FP32",
+    "device": "cpu",
+    "size_mb": 42.77399730682373,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "mean_ms": 61.92227785999876,
+    "p95_ms": 81.7448668498855
+  },
+  {
+    "model": "PyTorch FP32",
+    "device": "cuda",
+    "size_mb": 42.77399730682373,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "mean_ms": 3.2702575799953593,
+    "p95_ms": 3.5774114499872662
+  },
+  {
+    "model": "PyTorch INT8 (dynamic, Linear only)",
+    "device": "cpu",
+    "size_mb": 42.726454734802246,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "mean_ms": 68.15189973998713,
+    "p95_ms": 85.90485064985387
+  },
+  {
+    "model": "ONNX Runtime FP32",
+    "device": "cpu",
+    "size_mb": 42.69053840637207,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "mean_ms": 38.1362086699869,
+    "p95_ms": 51.80036355003494
+  },
+  {
+    "model": "ONNX Runtime FP32",
+    "device": "cuda",
+    "size_mb": 42.69053840637207,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "mean_ms": 3.4323333399925104,
+    "p95_ms": 3.530781799872784
+  },
+  {
+    "model": "ONNX Runtime INT8 dynamic",
+    "device": "cpu",
+    "size_mb": 10.725261688232422,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "mean_ms": 54.66941269000017,
+    "p95_ms": 71.27061355004116
+  },
+  {
+    "model": "ONNX Runtime INT8 dynamic",
+    "device": "cuda",
+    "size_mb": 10.725261688232422,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "mean_ms": 54.77428366998993,
+    "p95_ms": 62.62180725016151
+  },
+  {
+    "model": "ONNX Runtime INT8 static (QDQ)",
+    "device": "cpu",
+    "size_mb": 10.787364959716797,
+    "accuracy": 0.9708420113061589,
+    "macro_f1": 0.9595959595959596,
+    "mean_ms": 23.91498877000231,
+    "p95_ms": 26.01118460015641
+  },
+  {
+    "model": "ONNX Runtime INT8 static (QDQ)",
+    "device": "cuda",
+    "size_mb": 10.787364959716797,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "mean_ms": 3.9510734100122136,
+    "p95_ms": 4.030574749845073
+  }
+]

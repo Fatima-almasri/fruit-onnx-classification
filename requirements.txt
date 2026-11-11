@@ -1,0 +1,9 @@
+# Training / export / benchmark (CPU). For GPU benchmarks use onnxruntime-gpu INSTEAD of onnxruntime.
+torch>=2.1
+torchvision>=0.16
+onnx>=1.15
+onnxruntime>=1.17
+numpy
+Pillow
+scikit-learn
+kaggle

@@ -1,0 +1,4 @@
+# Minimal dependencies for the Docker inference image
+onnxruntime>=1.17
+numpy
+Pillow
